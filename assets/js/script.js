@@ -97,7 +97,7 @@ jQuery(function ($) {
 			if (target.length) {
 				html_body.animate({
 					scrollTop: target.offset().top - 70
-				}, 1500, 'easeInOutExpo');
+				}, 400, 'easeInOutExpo');
 				return false;
 			}
 		}
